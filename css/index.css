@@ -1,0 +1,188 @@
+﻿*{margin: 0;padding: 0;}
+a:focus{outline:none !important;}
+ul li{list-style: none;}
+body{overflow-x:hidden;}
+/*首页 开始*/
+nav{border: 0 !important;background: none !important;}
+nav .ul_1{padding-right: 10%;}
+.active_nav{background:rgba(53,27,8,0.8) !important;color: #fff;}
+nav ul li a{display: inline-block; font-size: 18px; color: #fff;line-height: 40px !important;transition: all .2s ease-in-out; */}
+nav .ul_1 li a:hover{transform: scale(1.1);}
+button{display: block;}
+.sec_one{position: relative;}
+.sec_one,.sec_three{width: 100%;height: 100vh;margin-top: 0 !important;}
+.sec_one .one_bg,.sec_three .one_bg{width: 100%;height: 100%;}
+.sec_one .one_bg img,.sec_three .one_bg img{display: block;width: 100%;height: 100%;}
+.sec_one p{font-size: 40px;color: #333;position:absolute;right: 10%;top: 45%; font-family: "微软雅黑";}
+.ul_1 .on a{transform: scale(1.1);}
+.btn{margin-top: 8px;margin-left: 2em;}
+.meau{float: left !important;width: 100%;border: none !important;text-align: left; background: none !important;padding: 0 !important;}
+.meau li a{display: block; color: #333;padding-left: 2em;padding-left: 2em;}
+.meau li a:hover{background:rgba(97,50,16,0.6);color: #fff !important;}
+.toAbout{display: block;width: 50px;height: 50px;background: url(../img/tupianHB.png) no-repeat -34px -38px; position: absolute;left: 50%;bottom: 10%;z-index: 999;animation: toAbout 2s linear infinite both;}
+@keyframes toAbout{
+	0%{
+		opacity: 0;
+		bottom: 10%;
+	}
+	50%{
+		opacity: 1;
+		bottom: 5%;
+	}
+	100%{
+		opacity: 0;
+		bottom: 0;
+	}
+}
+/*首页结束*/
+
+
+/*关于我 开始*/
+.section{line-height: none;text-align: center;padding: 0 !important;}
+h2{font-size: 26px;margin: 0 !important;line-height:30px;margin-top: 110px !important;}
+/*.sec_two h2{opacity: 0;}*/
+h2 span{display:block;font-size: 20px;}
+h2 span img{display: inline-block; padding: 0 10px;}
+
+.photo{/*opacity: 0;*/ width: 180px;height:180px;border-radius: 50%;overflow: hidden;margin: 0 auto;margin-bottom: 26px;margin-top: 20px;box-shadow: 3px 3px 6px #ccc;}
+.photo img{display: block; width: 100%;height: 100%;box-shadow: 0 0 5px #000;}
+.sec_two p{font-size: 18px;color: #333;line-height:36px !important;} 
+/*.sec_two{opacity: 0;}*/
+/*关于我 结束*/	
+
+/*技能掌握开始*/
+.sec_three h2{margin-bottom: 30px !important;}
+.one_bg{position: absolute;top: 0;left: 0;z-index: -1;}
+.sec_three h2,.sce_five h2{color: #fff;}
+.pro{width: 700px;line-height: 20px; margin: 0 auto;margin-bottom: 25px;color: #000;font-weight: 500;font-size: 14px;}
+.pro .progress_g{width: 540px;margin: 0 auto; float: left;margin-left: 20px;}
+.pro span{display: inline-block;float: left;width: 80px;text-align: left;}
+.pro span i{display: none;}
+/*技能掌握结束*/
+
+
+/*项目展开始*/
+.box-content{text-align: left !important;color: #fff;font-size: 14px;}
+.box-content p strong{display: inline-block;width: 30%;float: left;}
+.box-content p span{display: inline-block;width: 70%;font-size: 12px;}
+.box-content p a{font-size: 14px;color: #fff;}
+
+
+
+
+.demo .container{height: 367px;overflow: auto;}
+.demo .container::-webkit-scrollbar-track-piece {  /*滚动条里面轨道*/
+    background-color:#f5f5f5;  
+    border-left:1px solid #d2d2d2;  
+}  
+.demo .container::-webkit-scrollbar {  /*滚动条整体样式*/
+    width:5px;   /*高宽分别对应横竖滚动条的尺寸*/
+    height:13px;  
+}  
+.demo .container::-webkit-scrollbar-thumb {  /*滚动条里面小方块*/
+    background-color:#c2c2c2;  
+    background-clip:padding-box;  
+    border:1px solid #979797;  
+}  
+.demo .container::-webkit-scrollbar-thumb:hover {  
+    border:1px solid #636363;  
+    background-color:#929292;  
+}
+
+/*项目展结束*/
+
+
+
+/*联系我开始*/
+.sce_five{position: relative;font-size: 14px;}
+.sce_five .one_bg{width: 100%;height: 100%;}
+.sce_five .one_bg img{display: block;width: 100%;height: 100%;position: absolute;top: 0; left: 0;z-index: -1;}
+
+.sce_five .five_div{position: relative; margin: 0 auto;padding-top: 130px;}
+.sce_five .five_div p{width: 240px;text-align: left;margin: 0 auto;padding-left: 60px;height: 60px;line-height:60px;}
+.sce_five .five_div p:first-of-type{background: url(../img/email.png) no-repeat left center;}
+.sce_five .five_div p:nth-of-type(2){background: url(../img/qq.png) no-repeat left center;}
+.sce_five .five_div p:last-of-type{background: url(../img/github.png) no-repeat 2px center;}
+.sce_five .five_div img{display: block;position: absolute;top: 30%;}
+.sce_five .five_div img:first-of-type{left: 22%;}
+.sce_five .five_div img:last-of-type{right: 23%;}
+
+/*客服部份*/
+#floatDivBoxs{width:170px;background:#fff;position:fixed;top:100px;left:-170px;z-index:999;}
+#floatDivBoxs .floatDtt{width:100%;height:45px;line-height:45px; background:#f08326;color:#fff;font-size:18px;text-indent:22px;position:relative;}
+#floatDivBoxs .floatDqq{padding:0 14px;}
+#floatDivBoxs .floatDqq li{height:55px;line-height:55px;font-size:15px;border-bottom:1px solid #e3e3e3; text-align:right}
+#floatDivBoxs .floatDqq li img{ float:left; margin-top:10px;}
+#floatDivBoxs .floatDtxt{font-size:18px;color:#333;padding:12px 14px;}
+#floatDivBoxs .floatDtel{padding:0 0 15px 10px;}
+#floatDivBoxs .floatImg{text-align:center;padding:10px;background:#EBEBEB;}
+#floatDivBoxs .floatImg img{ margin-bottom:5px;}
+#floatDivBoxs .floatDtel img{display:block;}
+#floatDivBoxs .floatDbg{width:100%;height:20px ;box-shadow:2px 0 3px rgba(0,0,0,0.25);}
+.floatShadow{ background:#fff;box-shadow:0px 0 10px rgba(0,0,0,0.25);}
+#rightArrow{width:50px;height:45px;background:url(../img/online_arrow.jpg) no-repeat;position:fixed;top:100px;left:0;z-index:999;}
+#rightArrow a{display:block;height:45px;}
+
+/*联系我结束*/
+
+@media screen and (min-width:992px ) and (max-width:1200px) {
+	.demo .container{height: 350px;}
+}
+
+@media screen and (max-width:992px ) {
+	.sec_one p{font-size: 30px;}
+	.pro{width: 600px;}
+	.pro .progress_g{width: 440px;}
+	.sce_five .five_div img:first-of-type{left: 10%;}
+	.sce_five .five_div img:last-of-type{right: 11%;}
+	.box-content{font-size: 16px;}
+}
+
+@media screen and (max-width:768px ) {
+	.sec_one p{font-size: 26px;}
+	.pro{width: 450px;font-size: 12px;}
+	.pro .progress_g{width:280px;}
+	#fp-nav{display: none !important; }
+	h2 img{display: none !important;}
+	.sce_five .five_div img:first-of-type{display: none}
+	.sce_five .five_div img:last-of-type{position: initial;display: block;margin: 20px auto 0 auto;}
+	.five_div{padding-top: 10px !important;}
+	.five_div p {height: 45px !important; line-height: 45px !important;}
+	.box-content{font-size: 14px;}
+	
+}
+@media only screen and (max-width: 580px) {
+	.box-content p strong{
+		width: 35%;
+	}
+	.box-content p span{
+		width: 65%;
+	}
+}
+@media screen and (max-width:510px ) {
+	.row .row_b{
+		width: 100%;
+		margin-bottom: 10px;
+		border-bottom:3px solid #ccc;
+	}
+	.box-content p strong{
+		width: 25%;
+	}
+	.box-content p span{
+		width: 75%;
+	}
+}
+@media screen and (max-width:500px ) {
+	.sec_one p{font-size: 18px;}
+	.pro{width: 400px;}
+	.pro .progress_g{width: 90%;float: none;margin: 0 auto;}
+	.container{width: 100% !important;}
+	.pro>p{display: none;}
+	.pro span i{display: inline-block;font-style: none;margin-left: 4px;}
+	.pro span{float: none;text-align: center;width: 100%;}
+	
+}
+@media screen and (max-width:500px ) {
+	.pro .progress_g{width: 70%;}
+	.pro{margin-bottom: 15px;}
+}
